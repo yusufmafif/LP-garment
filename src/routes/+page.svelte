@@ -24,6 +24,20 @@
 
 <svelte:head>
   <title>Jasa Web Tasik — Website untuk Reseller & Grosir Busana Muslim</title>
+  
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://webgarment.vercel.app/" />
+  <meta property="og:title" content="Jasa Web Tasik — Website untuk Reseller & Grosir Busana Muslim" />
+  <meta property="og:description" content="Jasa pembuatan website profesional untuk reseller dan grosir busana muslim di Tasikmalaya. Katalog online, koneksi WhatsApp, harga transparan." />
+  <meta property="og:image" content="https://webgarment.vercel.app/preview.webp" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://webgarment.vercel.app/" />
+  <meta name="twitter:title" content="Jasa Web Tasik — Website untuk Reseller & Grosir Busana Muslim" />
+  <meta name="twitter:description" content="Jasa pembuatan website profesional untuk reseller dan grosir busana muslim di Tasikmalaya. Katalog online, koneksi WhatsApp, harga transparan." />
+  <meta name="twitter:image" content="https://webgarment.vercel.app/preview.webp" />
 </svelte:head>
 
 <!-- ── NAV ─────────────────────────────────────── -->
@@ -339,7 +353,7 @@
     transform: rotate(8deg);
   }
   .img-front {
-    width: 65%;
+    width: 60%;
     aspect-ratio: 3/4;
     bottom: 5%;
     left: 20%;
